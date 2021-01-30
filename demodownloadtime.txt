@@ -1,0 +1,26 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+		final double KB_PER_SEC = 5.2;
+		double hours = 0;
+		double minutes = 0;
+		double totalSeconds = 0;
+	    double seconds = 0;
+ 		double kilobytes = 0;
+		Scanner scan=new Scanner(System.in);
+		int fileSize=scan.nextInt();
+		int mb=scan.nextInt();
+		kilobytes = mb * 1024;
+		totalSeconds = kilobytes / fileSize;
+		hours = totalSeconds / 3600;
+		minutes = ( totalSeconds % 3600 ) / 60;
+		seconds = ( totalSeconds % 3600 ) - ( minutes * 60 );
+		System.out.println(seconds);
+
+                      // Your code here
+	}
+}

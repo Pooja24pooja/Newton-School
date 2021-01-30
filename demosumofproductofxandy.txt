@@ -1,0 +1,31 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+    static int sumofProduct(int number){
+        int sum = 0; 
+        int rootNo = (int)Math.sqrt(number);
+        for (int j=1; j<=rootNo; j++){
+            int upper = number/j;
+            int lower= Math.max(number/(j+1),rootNo);
+            sum += (j * calculateRange(upper,lower)); 
+            sum += (j * (number/j)); 
+            }
+            return sum;
+    }
+    static int calculateRange(int p, int q){
+        int i = (p *(p + 1)) >> 1; 
+        int j = (q *(q + 1)) >> 1; 
+        return (i - j);
+    }
+	public static void main (String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int testCase=scan.nextInt();
+        for(int i=0;i<testCase;i++){
+            int number=scan.nextInt();
+            System.out.println(sumofProduct(number));
+        }
+	}
+}

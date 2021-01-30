@@ -1,0 +1,127 @@
+Newton
+School
+Back to contest page
+Newton's coding challenge January 2021
+Instructions
+Questions
+Leaderboard
+All Submissions
+My Submissions
+Share Result
+Question
+Language
+Status
+Submission Time	User	Question	Language	Status	Code
+29/01/2021 11:28:14	sivatkpl007	Weird chapo! (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:13	ashok02ash	Jerry and Sorting (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:13	nallapanenisaisindhu	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:12	sagarjalan2471996	Random selection (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:28:12	suryansh.jaiswal789	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:11	revilush	Weird chapo! (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:11	sauravkr887731	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:10	kailash.pbh1999	Jerry and Sorting (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:10	alokesh985	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:09	abhishekujjwal2000	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:09	chandravijay2905	Tic Tac Toe (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:08	dhurkaprasanna	Weird chapo! (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:28:07	druva.alur	Random selection (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:28:05	sachanvishal5881	Random selection (Public Contest: Jan 2021)	C (GCC 9.2.0)	
+29/01/2021 11:28:04	priyabatta09	Random selection (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:28:04	inderjeet230502	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:03	janjansirani.550	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:02	harjitsimu	Random selection (Public Contest: Jan 2021)	C (GCC 9.2.0)	
+29/01/2021 11:28:02	rajavishwanath98	Weird chapo! (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:01	trudra777	Jerry and Sorting (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:01	merajahmad032042	Tic Tac Toe (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:28:00	badalcoder2018ee	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:28:00	sujithkumaryadala	Random selection (Public Contest: Jan 2021)	C (GCC 9.2.0)	
+29/01/2021 11:27:58	prashantnegi155	Teaming up (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:58	nallapanenisaisindhu	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:57	peddibalabhavani	Jerry and Sorting (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:57	pinsu9084	Weird chapo! (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:57	bishalk100	Weird chapo! (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:55	9198239087r	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:55	varun5chodha	Random selection (Public Contest: Jan 2021)	C (GCC 9.2.0)	
+29/01/2021 11:27:54	keshavkaushik14	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:53	sharmaraunak1998	Jerry and Sorting (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:51	kasaudhanaayush	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:51	dhurkaprasanna	Weird chapo! (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:51	samarpratapsingh1230	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:49	maneabh1217	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:48	niranjancholendiran	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:48	mohitsharma7153	Jerry and Sorting (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:48	pp970970	Jerry and Sorting (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:48	nishantkodambal	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:47	anantsharma9430228931	Weird chapo! (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:47	butalayash99	Jerry and Sorting (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:45	wumar42	Weird chapo! (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:44	alokesh985	Random selection (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:42	afrin111btit19	Weird chapo! (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:41	santoshkumarstar777	Weird chapo! (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+29/01/2021 11:27:41	sarthak15aug	Random selection (Public Contest: Jan 2021)	C (GCC 9.2.0)	
+29/01/2021 11:27:40	sivamanikandan45	Weird chapo! (Public Contest: Jan 2021)	Python (3.8.1)	
+29/01/2021 11:27:39	sachinkumards295	Tic Tac Toe (Public Contest: Jan 2021)	Java (OpenJDK 13.0.1)	
+29/01/2021 11:27:39	gauravmoonka999	Random selection (Public Contest: Jan 2021)	C++ (GCC 9.2.0)	
+
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args)throws IOException  {
+                      // Your code here
+					  BufferedReader rd=new BufferedReader(new InputStreamReader(System.in));
+					  String[] S=rd.readLine().split(" ");
+					  char a=S[0].charAt(0);
+					  char b=S[1].charAt(0);
+					  if(a=='R' || b=='R')
+					  {
+						  System.out.println("R");
+					  }
+					 else if(a=='J' || b=='J')
+					 {
+						 if(a=='J')
+						 {
+							System.out.println(b); 
+						 }
+						 else
+						 {
+							System.out.println(a);  
+						 }
+					 }
+					  else if((a!='R' && b!='R') || (a!='j' && b!='J')) 
+					  {
+						  System.out.println("D"); 
+					  }
+
+
+					  
+
+	}
+}
+
+Hidden test case
+
+    «First
+    2
+    3
+    4
+    5(current)
+    6
+    7
+    8
+    »Last
+
+newton-logo
+© 2020 Incanus Technologies Pvt Ltd
+All rights reserved. (Terms)
+For any queries, you can reach us at
+support@newtonschool.co
+Follow us on
+facebook-logo
+instagram-logo
+linkedin-logo
+youtube-logo
+twitter-logo
+don
