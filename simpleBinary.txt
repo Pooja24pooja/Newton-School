@@ -1,0 +1,48 @@
+Given an array of N elements where each element is either 1 or 0. You have to divide the array into maximum number of subarrays such that each element of the array is in exactly one subarray such that each subarray has equal number of 1's and 0's.
+Input
+First line of input contains N.
+Second line of input contains N space separated elements of the array.
+
+Constraints:
+1 <= N <= 100000
+0 <= elements of the array <= 1
+Output
+Print the single integer which is the maximum number of subarrays the array can be divided into. If it is not possible then print -1.
+
+
+
+
+
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n=scan.nextInt();
+        long subarray = 0;
+        long count = 0;
+        for(int i=0;i<n;i++){
+            int value = scan.nextInt();
+            if(value == 0){
+                if(count == 0){
+                    subarray++;
+                }
+                count--;
+            }
+            else if(value == 1){
+                 if(count == 0){
+                    subarray++;
+                 }
+                count++;
+            }
+        }
+        if(count == 0)
+            System.out.print(subarray);
+        else 
+            System.out.print(-1);
+	}
+         // Your code here
+}
