@@ -1,0 +1,50 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static boolean isNumeric(String strNum) {
+		if (strNum == null) {
+			return false;
+		}
+		try {
+			double d = Double.parseDouble(strNum);
+		} catch (NumberFormatException nfe) {
+			return false;
+		}
+		return true;
+	}
+	public static void calculate(String arr[]){
+		Stack<Long> stack = new Stack<>();
+		for(int i=0;i<arr.length;i++){
+			String val = arr[i];
+			if(isNumeric(val))
+				stack.push(Long.parseLong(val));
+			else{
+				long value1 = stack.pop();
+				long value2 = stack.pop();
+				if(val.equals("+")){
+					stack.push(value2+value1);
+				}
+				else if(val.equals("-")){
+					stack.push(value2-value1);
+				}
+				else if(val.equals("*")){
+					stack.push(value2*value1);
+				}
+				else if(val.equals("/")){
+					stack.push(value2/value1);
+				}
+			}
+		}
+		System.out.println(stack.pop());
+	}
+	public static void main (String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String val  = br.readLine();
+		String str = br.readLine();
+		String[] arrOfStr = str.split(" "); 
+		calculate(arrOfStr);
+	}
+}

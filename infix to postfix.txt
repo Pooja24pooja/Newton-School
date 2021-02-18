@@ -1,0 +1,53 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static boolean isChar(char ch) {
+		return ('A' <= ch && ch<= 'Z') || ('a' <= ch && ch<= 'z');
+	}
+
+	public static int assignPrecedance(char ch) {
+		if (ch == '^')
+			return 3;
+		else if (ch == '/' || ch == '*')
+			return 2;
+		else if(ch == '+' || ch == '-')
+			return 1;
+		else
+			return -1;
+	}
+
+	public static void isBalanced(String str) {
+		Stack<Character> stack = new Stack<>();
+		String output = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if (isChar(ch)) {
+				output += ch;
+			} else if (ch == '(') {
+				stack.push(ch);
+			} else if (ch == ')') {
+				while (stack.peek() != '(' && !stack.empty())
+					output += stack.pop();
+				stack.pop();
+			} else {
+				while (!stack.empty() && assignPrecedance(stack.peek()) >= assignPrecedance(ch)) 
+					output += stack.pop();
+				stack.push(ch);
+			}
+		}
+		while (!stack.empty())
+			output += stack.pop();
+		System.out.println(output);
+	}
+
+	public static void main(String[] args) {
+Scanner scan= new Scanner(System.in);
+		String str=scan.nextLine();
+		isBalanced(str);
+		
+	}
+}

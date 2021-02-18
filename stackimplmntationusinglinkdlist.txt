@@ -1,0 +1,52 @@
+/*  
+    
+class Node {
+    Node next;
+    int val;
+
+    Node(int val) {
+        this.val = val;
+        next = null;
+       
+    }
+}
+ */
+
+ Node top = null;
+ Node head = top;
+public void push(int x){
+    Node newNode = new Node(x);
+    if(top == null){
+        top = newNode;
+        head = top;
+    }
+    else{
+        top.next = newNode;
+        top = newNode;
+    }
+}
+
+public void pop(){
+    if(top == null){
+       
+    }
+    else if(top == head){
+        //System.out.println(top.val);
+        top = null;
+        head = null;
+    }
+    else{
+        Node temp = head;
+        while(temp.next!=top)
+            temp = temp.next;
+        //System.out.println(top.val);
+        top = temp;
+    }
+}
+
+public void top(){
+    if(top == null)
+         System.out.println(0);
+    else
+         System.out.println(top.val);
+}

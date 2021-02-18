@@ -1,0 +1,28 @@
+static Stack <Integer> St = new Stack();
+static void Reverse_Stack(){
+//Enter your code here
+if(St.empty())
+{
+	return ;
+}
+int data=St.pop();
+//st.pop();
+Reverse_Stack();
+InsertAtBottom(data);
+
+}
+static void InsertAtBottom(int data)
+{
+	if(St.empty())
+	{
+		St.push(data);
+	}
+	else
+	{
+		int prev=St.pop();
+		//st.pop();
+		InsertAtBottom(data);
+		St.push(prev);
+
+	}
+}

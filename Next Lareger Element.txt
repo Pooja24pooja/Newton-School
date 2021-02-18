@@ -1,0 +1,31 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int sizeOfArr = scanner.nextInt();
+		long arr[] = new long[sizeOfArr];
+		for(int i=0;i<sizeOfArr;i++)
+			arr[i] = scanner.nextLong();
+		for(int i=0;i<sizeOfArr-1;i++){
+			int j = i+1;
+			boolean flag = false;
+			while(j<sizeOfArr){
+				//System.out.println("j = "+j);
+				if(arr[i] < arr[j]){
+					System.out.print(arr[j] + " ");
+					flag = true;
+					break;
+				}
+				if(j<=sizeOfArr)
+				j++;
+			}
+			if(!flag)
+				System.out.print(-1 + " ");
+		}
+		System.out.print(-1 + " ");
+	}
+}

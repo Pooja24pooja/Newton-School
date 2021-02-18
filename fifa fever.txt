@@ -1,0 +1,35 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+    Scanner in = new Scanner(System.in);
+	int testCases = in.nextInt();
+	while(testCases-- > 0) {
+		int len = in.nextInt();
+		long ronaldo = in.nextLong();
+		 long curr=ronaldo;
+        long prev=0;
+		while(len-- > 0) {
+			char ch = in.next().charAt(0);
+			if(ch == 'P') {
+				long passId = in.nextLong();
+				prev = curr;
+				curr = passId;
+			}
+
+			if(ch == 'B') {
+				  	prev=prev+curr;
+                	curr=prev-curr;
+					prev=prev-curr;
+				
+			}
+		}
+
+		System.out.println(curr);
+
+	}
+	}
+}

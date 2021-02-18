@@ -1,0 +1,37 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static boolean isOperator(char ch){
+		if(ch == '+' || ch == '-' || ch == '*' || ch == '/')
+			return true;
+		return false;
+	}
+	public static void prefixToInfix(String str){
+		Stack<String> stack = new Stack<>();
+		//String output = "";
+		int strlen = str.length();
+		// String output = "";
+		for(int i=strlen-1;i>=0;i--){
+			char ch = str.charAt(i);
+			if(isOperator(ch)){
+				String temp1 = stack.pop();
+				String temp2 = stack.pop();
+
+				String output = "(" + temp1 + ch + temp2 + ")";
+				stack.push(output);
+			}
+			else{
+				stack.push(ch + "");
+			}
+		}
+		System.out.println(stack.pop());
+	}
+	public static void main (String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str = br.readLine();
+		prefixToInfix(str);
+	}
+}
